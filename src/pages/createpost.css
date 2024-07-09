@@ -1,0 +1,45 @@
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    gap: 20px;
+    position: relative;
+    left: 33%;
+
+}
+
+.delete-potst-bn {
+    margin-bottom: 4%;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+form {
+    position: fixed;
+    left: 1%;
+    top: 18%;
+    border-radius: 10px;
+}
+
+.add-post-btn {
+    background-color: black;
+    color: white;
+    margin-top: 2%;
+    float: left;
+
+}
+
+li {
+    width: 100%;
+    background-color: black;
+    color: white;
+    box-shadow: 10px 5px 5px gray;
+}
