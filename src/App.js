@@ -8,10 +8,7 @@ import CreatePost from './pages/createPost';
 import { useState } from 'react';
 
 function App() {
-
   const [isAuth, setIsAuth] = useState(false);
-
-
   return (
     <div className="App">
 
@@ -21,8 +18,6 @@ function App() {
           <Link to="/" > Home</Link>
           <Link to="/createPost">CreatePost</Link>
           <Link to="/Login" >login</Link>
-
-
         </nav>
 
         <Routes>
