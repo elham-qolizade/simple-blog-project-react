@@ -11,15 +11,12 @@ function App() {
   const [isAuth, setIsAuth] = useState(false);
   return (
     <div className="App">
-
       <Router>
-
         <nav>
           <Link to="/" > Home</Link>
           <Link to="/createPost">CreatePost</Link>
           <Link to="/Login" >login</Link>
         </nav>
-
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/login' element={<Login isAuth={setIsAuth} />} />
